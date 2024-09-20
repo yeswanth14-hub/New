@@ -1,0 +1,169 @@
+
+
+
+/* General Styles */
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     background-image: url('/storage/E1B4-0FFE/Audiobooks/1722130321087.jpg');
+    width: 100%;
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+    right: 20%;
+}
+header {
+    
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+    
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.menu {
+    padding: 38px;
+    text-align: center;
+    
+}
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+}
+
+.contact {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+     background-color: white;
+    color: orange
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    top: 160%;
+}
+button1 {
+    background-color: orange;
+    border: none;
+    position: center;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+button {
+    background: none;
+    shape-margin: -50%;
+    border: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    left: 40%;
+    top:230%;
+}
+.instagram-badge {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.instagram-badge a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.instagram-badge a:hover {
+  background-color: #C13584; /* Darker shade for hover effect */
+}
+
+.instagram-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+    
+}
+
+.instagram-badge:hover {
+  background-color: #C13584; /* Darker shade for hover effect */
+}
